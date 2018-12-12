@@ -1,4 +1,3 @@
-setwd("/Users/Rodrigo/Dropbox/R_scripts/functions4eqtls/")
 ########################################
 ###  run eQTL
 ########################################
@@ -8,11 +7,8 @@ library(GenomicRanges)
 library(GenomicFeatures)
 library(org.Hs.eg.db)
 library(IRanges)
-source("./lmEQTL.R")
-source("http://bioconductor.org/biocLite.R")
-biocLite("S4Vectors")
 library(S4Vectors)
-
+source("./lmEQTL.R")
 
 #---get markers
 lMarkers<-read.table("./mirsnps_proxies_breastcancer_affy_snp6_coord.txt", 

@@ -1,2 +1,2 @@
 # eQTL
-eQTL analysis lineal model
+eQTL analysis linear model
